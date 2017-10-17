@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="itesm.mx.a01191342_calculadora.NicknameActivity">
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escriba su nombre aqui"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_set_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="152dp"
+        android:layout_weight="1"
+        android:text="Listo"
+        android:textSize="45sp" />
+
+</LinearLayout>
